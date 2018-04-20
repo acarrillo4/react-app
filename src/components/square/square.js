@@ -1,16 +1,18 @@
 import React, {Component} from "react";
-import imageArr from "./imageArr.json";
+import imageArr from "../../imageArr.json";
 import "./square.css";
 
 
-export default class Square extends Component {
+class Square extends Component {
   render() {
     return (
       <div>
         {imageArr.map(image => (
-          <img src={image.src} onClick={() => this.props.ClickImage(image.id)} />
+          <img src={image.src} alt="SpongeBob" onClick={()=>this.props.onClick(image.id)} />
         ))}
       </div>
     );
   }
 }
+
+export default Square

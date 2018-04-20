@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Board from './components/board';
-import logo from './logo.svg';
 import './App.css';
 
 export default class App extends Component {
