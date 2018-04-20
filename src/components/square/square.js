@@ -1,15 +1,16 @@
 import React, {Component} from "react";
+import imageArr from "./imageArr.json";
 import "./square.css";
 
-class Square extends Component {
-    render() {
-        let classes = this.props.label === 0 ? "square" : "square clicked";
 
-        return (
-            <div onClick={this.isClicked} className={classes}>
-                {this.props.label}
-            </div>
-        );
-    }
+export default class Square extends Component {
+  render() {
+    return (
+      <div>
+        {imageArr.map(image => (
+          <img src={image.src} onClick={() => this.props.ClickImage(image.id)} />
+        ))}
+      </div>
+    );
+  }
 }
-export default Square;
