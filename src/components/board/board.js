@@ -56,7 +56,7 @@ class Board extends Component {
   render() {
     return (
         <div>
-          {this.state.score}
+          <h2>Score: {this.state.score}</h2>
           <Square onClick={this.ClickImage} />
         </div>
           
