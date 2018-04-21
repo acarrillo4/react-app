@@ -1,17 +1,14 @@
 [
-    {
-      "id": "a",
-      "src":
-        "https://vignette.wikia.nocookie.net/spongebob/images/a/ac/Spongebobwithglasses.jpeg/revision/latest?cb=20121014113150"
-    },
-    {
-      "id": "b",
-      "src":
-        "https://vignette.wikia.nocookie.net/spongebob/images/e/e4/SpongeBob_%285%29.png/revision/latest?cb=20140824163949"
-    },
-    {
-      "id": "c",
-      "src":
-        "https://i.amz.mshcdn.com/qWsvJEjk_3WX87dN-MKQB41gBVI=/950x534/filters:quality(90)/https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com%2Fuploads%2Fcard%2Fimage%2F498047%2F377da321-b088-4497-8d52-4fad8bbf47ca.jpg"
-    }
-  ]
+  {
+    "id": "a",
+    "src": "https://vignette.wikia.nocookie.net/nickelodeon/images/2/27/Spongebob_PNG.png/revision/latest?cb=20120702055752"
+  },
+  {
+    "id": "b",
+    "src": "https://vignette.wikia.nocookie.net/spongebob/images/e/e4/SpongeBob_%285%29.png/revision/latest?cb=20140824163949"
+  },
+  {
+    "id": "c",
+    "src": "https://vignette.wikia.nocookie.net/spongebob/images/a/ac/Spongebobwithglasses.jpeg/revision/latest?cb=20121014113150"
+  }
+]
