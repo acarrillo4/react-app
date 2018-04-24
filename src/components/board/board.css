@@ -1,6 +1,10 @@
 h2 {
-    font-size: 45px;
+    font-size: 30px;
 }
 p {
-    font-size: 35px;
+    font-size: 25px;
+}
+.AppDiv {
+    margin: auto 0px;
+    align-items: center;
 }

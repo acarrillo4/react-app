@@ -1,14 +1,50 @@
 [
   {
     "id": "a",
-    "src": "https://vignette.wikia.nocookie.net/nickelodeon/images/2/27/Spongebob_PNG.png/revision/latest?cb=20120702055752"
+    "src": "./images/spongebob.jpg"
   },
   {
     "id": "b",
-    "src": "https://vignette.wikia.nocookie.net/spongebob/images/e/e4/SpongeBob_%285%29.png/revision/latest?cb=20140824163949"
+    "src": "./images/patrick-2.jpg"
   },
   {
     "id": "c",
-    "src": "https://vignette.wikia.nocookie.net/spongebob/images/a/ac/Spongebobwithglasses.jpeg/revision/latest?cb=20121014113150"
+    "src": "./images/spongebob-3.jpg"
+  },
+  {
+    "id": "d",
+    "src": "./images/patrick-4.jpg"
+  },
+  {
+    "id": "e",
+    "src": "./images/spongebob-5.jpg"
+  },
+  {
+    "id": "f",
+    "src": "./images/patrick-6.jpg"
+  },
+  {
+    "id": "g",
+    "src": "./images/spongebob-9.jpg"
+  },
+  {
+    "id": "h",
+    "src": "./images/patrick-A.jpg"
+  },
+  {
+    "id": "i",
+    "src": "./images/spongebob-J.jpg"
+  },
+  {
+    "id": "j",
+    "src": "./images/patrick-Q.jpg"
+  },
+  {
+    "id": "k",
+    "src": "./images/spongebob-K.jpg"
+  },
+  {
+    "id": "l",
+    "src": "./images/spongebob-wild.jpg"
   }
 ]

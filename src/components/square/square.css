@@ -1,4 +1,9 @@
 img {
-    width: 350px;
-    height: 350px;
+    width: 200px;
+    height: 275px;
+}
+div.imagesSection {
+    max-width: 1200px;
+    margin: auto;
+    padding-bottom: 50px;
 }

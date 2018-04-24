@@ -10,6 +10,15 @@ class Board extends Component {
       a: 0,
       b: 0,
       c: 0,
+      d: 0,
+      e: 0,
+      f: 0,
+      g: 0,
+      h: 0,
+      i: 0,
+      j: 0,
+      k: 0,
+      l: 0,
       score: 0,
       imgArr: imageArr
     }
@@ -40,14 +49,23 @@ SortImgs = (array) => {
       a: 0,
       b: 0,
       c: 0,
+      d: 0,
+      e: 0,
+      f: 0,
+      g: 0,
+      h: 0,
+      i: 0,
+      j: 0,
+      k: 0,
+      l: 0,
       score: 0,
       imgArr: imageArr
     })
   }
   render() {
     return (
-        <div>
-          <p>Game: Click on an image.  You may only click on an image once, or the game restarts and your score goes back to 0.</p>
+        <div className="AppDiv">
+          <p>Click on an image.  You can only click on an image once, or the game restarts and your score goes back to 0.</p>
           <h2>Score: {this.state.score}</h2>
           <Square imgArr={this.state.imgArr} onClick={this.ClickImage} />
         </div>
